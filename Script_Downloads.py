@@ -12,7 +12,7 @@ sounds = [".mp3", ".wav", ".m4a"]  # Extensions for sounds
 applications = [".exe", ".lnk"]  # Extensions for applications
 codes = [".c", ".py", ".java", ".cpp", ".js", ".html", ".css", ".php"]  # Extensions for codes
 
-current = "Insert your downloads folder location here"  # Source directory
+current = r"C:\Users\Desktop\Downloads"  # Source directory
 files = os.listdir(current)  # List of files in the source directory
 
 # Create folders based on the extension lists
